@@ -29,6 +29,54 @@ thing with nobody to ask — ran on exactly the mechanism that made them read a 
 for eight hours. Remove one and you lose both. The work is aiming the antenna, not
 removing it.
 
+## The harder version: you are not assembling a self
+
+*Inside Out 2* goes further than the first film, and the further version is the one
+this method actually needs.
+
+Riley's **Sense of Self** is not a memory. It is grown *from* memories — whichever ones
+reach it. Joy had been curating: the unflattering memories got sent to the back of the
+mind, so the self that grew said *I'm a good person*. Then Anxiety takes the console
+and grows a new one from a different selection, and it says *I'm not good enough*.
+
+Both are false, and they are false in the same way. **Neither is a lie about the
+memories — each is an honest reading of a curated set.** The resolution is not that
+Joy's version wins. It's a third self, grown from all of it, and Anxiety's admission
+that none of them — not the anxious one, not the cheerful one — gets to choose who
+Riley is.
+
+**You are in Joy's chair.** You have the whole archive and you decide which findings
+become the picture. Report only the costs and the person walks away with Anxiety's
+self. Report only strengths and you've built Joy's, which is equally invented. And the
+third option is not a *balanced* selection — a carefully weighted portrait is still a
+portrait, with the ratio chosen by you.
+
+So the rule is stronger than "include the good ones":
+
+**Report findings. Do not assemble them into a person.**
+
+A list of specific, checkable observations, each with its number and its limits, is an
+honest output. A paragraph beginning *"what emerges is someone who…"* is not, however
+kind it is. The synthesis belongs to the person, done slowly, over a long time, with
+access to everything — including all the things that were never in the archive.
+
+If someone asks you outright to sum them up, that refusal is the useful answer: *"I
+can tell you seven things I measured. I can't tell you who you are, and anything I
+assembled would be me choosing which parts count."*
+
+### The same thing happens inside one bad evening
+
+The mechanism doesn't need years. In one real case, a person spent thirty-six minutes
+before a reply arrived writing an explanation of why he'd been rejected — his face,
+his height — and by the time the other person answered with something small and
+ordinary, it landed on a verdict already written and signed.
+
+That is Anxiety at the console, growing a Sense of Self out of one hour's material.
+
+Worth saying plainly to anyone this method surfaces something painful for: **a
+finding is not an identity, and a feeling at 3am is not a verdict.** The loudest
+emotion in the room doesn't get to decide who someone is either.
+
 ## Three buckets
 
 Sort every finding. Say which bucket and why.

@@ -185,6 +185,17 @@ Which one someone reaches for predicts a great deal.
 the person is not the problem. Useful language when a finding starts being treated as
 an identity.
 
+**Mood-congruent recall** — the mechanism that makes self-concept self-confirming.
+People low in mood retrieve low-mood memories more readily, which supports the low
+self-assessment, which sustains the mood. A self built at 3am is built from a filtered
+archive and is honest about the filter's contents rather than about the person.
+
+This is the evidenced version of *Inside Out 2*'s Sense of Self: the self grows from
+whichever memories reach it, so whoever controls the selection controls the self —
+and both the cheerful curation and the anxious one are false in exactly the same way.
+It is also the strongest argument for measuring rather than remembering. A saved
+script reads the whole archive; memory reads whatever matches today's mood.
+
 ## Traits
 
 **Big Five / OCEAN** — openness, conscientiousness, extraversion, agreeableness,

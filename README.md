@@ -129,6 +129,37 @@ So findings get sorted into three buckets — **load-bearing**, **just true**, a
 **costing more than it gives** — and only the third is allowed anywhere near phase 5.
 If everything lands in the third bucket, the sorting was wrong.
 
+### And the harder version, from the sequel
+
+*Inside Out 2* goes further. Riley's **Sense of Self** isn't a memory — it grows from
+whichever memories reach it. Joy had been curating, sending the unflattering ones to
+the back of the mind, and the self that grew said *I'm a good person*. Anxiety takes
+the console, grows a new one from a different selection, and it says *I'm not good
+enough*.
+
+Both are false in exactly the same way. **Neither is a lie about the memories — each is
+an honest reading of a curated set.** And the resolution isn't that Joy wins; it's a
+third self grown from all of it, plus Anxiety's admission that none of them gets to
+choose who Riley is.
+
+**Running this method puts you in that chair.** Report only costs and the person leaves
+with Anxiety's self. Report only strengths and you've built Joy's. A carefully
+*balanced* portrait is still a portrait, with the ratio chosen by the analyst.
+
+So the rule is stronger than "include the good ones":
+
+> **Report findings. Do not assemble them into a person.**
+
+A list of specific, checkable observations with their numbers and their limits is an
+honest output. A paragraph beginning *"what emerges is someone who…"* is not, however
+generous it is. The synthesis belongs to the person — slowly, over years, with access
+to everything, including all the parts that were never in any archive.
+
+The evidenced version of this mechanism is **mood-congruent recall**: feel low,
+retrieve low memories, confirm the low verdict. It's also the best argument for
+measuring rather than remembering. A saved script reads the whole archive. Memory
+reads whatever matches today's mood.
+
 The rest leaves as it arrived: known now, and otherwise untouched. Named in your own
 words, with what it does for you said out loud in the same breath as what it costs,
 and — the part that changes most — no longer counted as evidence against yourself
@@ -154,6 +185,7 @@ stops the exercise and says so.
 
 ## What it won't do
 
+- Sum you up, or tell you who you are
 - Tell you your personality type
 - Infer your childhood, your attachment style, or your diagnosis
 - Score you

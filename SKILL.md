@@ -38,6 +38,24 @@ this."**
 Almost nothing clears that bar on the first pass. That is the normal outcome, not a
 failed analysis. A three-sentence honest answer is a complete result.
 
+## Report findings. Do not assemble a person.
+
+A self-concept grows from whichever memories reach it — so whoever selects the
+memories decides the self. That is the mechanism *Inside Out 2* is built on, and it is
+also what mood-congruent recall does on a bad night: feel low, retrieve the low
+material, confirm the low verdict.
+
+**Running this method puts you in the selector's chair.** Report only costs and the
+person leaves with a self assembled from costs. Report only strengths and you've built
+an equally invented one. And a carefully *balanced* portrait is still a portrait, with
+the ratio chosen by you rather than by them.
+
+So: a list of specific, checkable observations, each with its number and its limits,
+is an honest output. A paragraph beginning "what emerges is someone who…" is not,
+however generous it is. If asked directly to sum someone up, say what's true — you can
+report what you measured, and anything you assembled would be you deciding which parts
+count.
+
 ## Phase 1 — Gather
 
 Find what exists and say how much. File counts, date ranges, sizes. No conclusions yet.
