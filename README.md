@@ -47,7 +47,7 @@ drive people away, you will carry that around for years.
 
 This skill came out of a month of doing exactly that to one person — with the data in
 front of us the whole time — and getting it wrong repeatedly. `failure-modes.md` is
-nine of those errors, each with the number that eventually exposed it. They're
+eleven of those errors, each with the number that eventually exposed it. They're
 included because **a wrong finding about a person doesn't feel wrong. It feels like
 insight.**
 
