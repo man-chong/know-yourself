@@ -73,6 +73,25 @@ be the one to say it.
 **6. What would you be doing instead, if you didn't do this?**
 Points straight at phase 4. Keep it concrete: an action, not a feeling.
 
+## The three layers
+
+One act usually has three readings, and the person is normally aware only of the first.
+
+```
+the act            "Are you ok? Is everything alright?"
+what it does       attends to how someone else is feeling
+what it protects   checks whether I've made a bad impression
+```
+
+**Never hand someone the third line.** It's the satisfying one and it's exactly the one
+you cannot see from data. Offer the first two — both observable — and ask for the third.
+
+The question that reaches it without leading: **"what would happen if you didn't?"**
+The answer names the feared outcome, and the feared outcome *is* the third layer.
+
+See `frameworks.md` for why the smallest, most habitual acts are the ones worth
+asking about: self-perception, safety behaviours, schema maintenance.
+
 ## Phrasings
 
 | instead of | say |

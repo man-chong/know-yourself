@@ -9,12 +9,17 @@ Someone wants to understand their own patterns using their own data, and then ch
 something. Five phases. Each has a reference file; read it when you reach that phase.
 
 ```
-1 GATHER   what data exists            references/1-gather.md
-2 MEASURE  what is actually in it      references/2-measure.md
-3 REFLECT  where it came from          references/3-reflect.md
-4 CHANGE   one thing, made measurable  references/4-change.md
-5 RETURN   did it move                 scripts/measure.py + a date
+1 GATHER   what data exists                 references/1-gather.md
+2 MEASURE  what is actually in it           references/2-measure.md
+3 REFLECT  where it came from               references/3-reflect.md
+4 HOLD     what is for keeping, not fixing  references/4-hold.md
+5 CHANGE   one thing, made measurable       references/5-change.md
+6 RETURN   did it move                      scripts/measure.py + a date
 ```
+
+`references/frameworks.md` is the vocabulary — attachment, shadow, schemas, safety
+behaviours, parts, self-perception. Use it to *name* what the data found, never to
+explain it, and always say which evidence tier a term comes from.
 
 Before anything else, read `references/failure-modes.md`. It is nine real errors from
 the analysis this method came out of, each with the number that exposed it. They are
@@ -103,7 +108,26 @@ this entire skill exists to prevent, on the subject where being wrong costs most
 before asking a single question; the difference between a good and a harmful version
 of this phase is almost entirely in the phrasing.
 
-## Phase 4 — Change
+## Phase 4 — Hold
+
+**Sort before you fix. Most of what you find is not a problem.**
+
+The shape of this exercise pulls toward repair — you measured someone, you found
+things they didn't know, and now both of you want to do something about it. That pull
+reclassifies ordinary traits as defects, and a person who came to understand
+themselves leaves with a to-do list about their character.
+
+Three buckets: **load-bearing** (it's doing a job — usually the same faculty as a
+strength, seen from the cost side), **just true** (works at night, types in fragments
+— facts, not problems), and **costing more than it gives** (the genuine minority).
+Only the third goes to phase 5. If everything landed there, sort again.
+
+Report capabilities with the same numbers and seriousness as costs. A person who
+leaves knowing only what's wrong with them has an inaccurate picture.
+
+→ `references/4-hold.md`
+
+## Phase 5 — Change
 
 Insight on its own changes nothing, and this method is unusually good at producing the
 *feeling* of progress.
@@ -113,9 +137,9 @@ would count as different. Set a date.
 
 The failure mode is picking five things and measuring none.
 
-→ `references/4-change.md`
+→ `references/5-change.md`
 
-## Phase 5 — Return
+## Phase 6 — Return
 
 Run the saved script again on the date. This is the part no other method has: most
 self-knowledge work ends at insight and never finds out whether anything moved.
@@ -156,5 +180,5 @@ they normally decline things. In the run this came from, that person declined ro
 62% of all suggestions and accepted **every single** offer of more analysis — and it
 was visible in the data the entire time.
 
-The right ending is phase 4 and a date, then stopping. Say so explicitly instead of
+The right ending is phase 5 and a date, then stopping. Say so explicitly instead of
 offering the next analysis.

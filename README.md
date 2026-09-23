@@ -14,12 +14,14 @@ Nobody reads their own.
 1  GATHER    find what data you actually have
 2  MEASURE   find what is actually in it
 3  REFLECT   ask where a pattern came from — you answer, not the AI
-4  CHANGE    pick one behaviour, make it countable, set a date
-5  RETURN    run the same script on that date and see if it moved
+4  HOLD      sort what's for keeping from what's actually costing you
+5  CHANGE    pick one behaviour, make it countable, set a date
+6  RETURN    run the same script on that date and see if it moved
 ```
 
-Phase 5 is the part other methods don't have. Most self-knowledge work ends at
-insight and never finds out whether anything changed.
+Two phases do the work nothing else does. **Phase 4** refuses to treat every finding as
+a defect. **Phase 6** comes back on a date and tells you whether anything moved — most
+self-knowledge work ends at insight and never finds out.
 
 ## Install
 
@@ -81,6 +83,57 @@ Four rounds of analysis built a personality out of the right-hand column before 
 checked the left. The deference was a *work voice*. Either archive alone gives you a
 confident and wrong portrait.
 
+## Small things are the point
+
+The habits worth finding are never dramatic. They're the ones so ordinary you stopped
+seeing them — apologising, checking whether someone's annoyed, softening a request,
+answering in four seconds. They run thousands of times and nobody has ever looked at
+them.
+
+Three named mechanisms explain how something that small becomes load-bearing, and
+`references/frameworks.md` covers all three:
+
+**Self-perception** (Bem) — you work out what you believe by watching what you do.
+Apologise three times a day for ten years and *"my presence is an imposition"* isn't
+something you were taught. It's something you derived, from evidence you generated.
+
+**Safety behaviours** — a small act that prevents a feared outcome. It works, and
+that's the trap: because the feared thing never happens, you never learn it wouldn't
+have happened anyway. **The belief survives because the behaviour succeeds.**
+
+**Schema maintenance** — a core belief stays alive through the behaviours it produces,
+which then generate its evidence. A closed loop running on small change.
+
+So when the data turns up something tiny and constant, that's a *stronger* finding than
+something rare and dramatic.
+
+## Not everything you find is a defect
+
+In *Inside Out*, Joy's mistake isn't handling Sadness badly — it's believing Sadness is
+the problem. The resolution isn't that Sadness gets fixed. It's that the core memory
+had to be blue.
+
+Phase 4 exists because this whole exercise pulls the other way. You measured someone,
+you found things they didn't know, and now everyone wants to fix something. That pull
+turns ordinary human traits into a repair list.
+
+The trait someone most wants removed is very often the same mechanism as something
+they'd never give up:
+
+> 「那份對人的敏感 —— 同一支天線，對外是洞察，對內是刑罰。」
+>
+> *That sensitivity to people — the same antenna. Pointed outward it's insight;
+> pointed inward it's punishment.*
+
+So findings get sorted into three buckets — **load-bearing**, **just true**, and
+**costing more than it gives** — and only the third is allowed anywhere near phase 5.
+If everything lands in the third bucket, the sorting was wrong.
+
+The rest leaves as it arrived: known now, and otherwise untouched. Named in your own
+words, with what it does for you said out loud in the same breath as what it costs,
+and — the part that changes most — no longer counted as evidence against yourself
+every time you catch it.
+
 ## On the "why am I like this" part
 
 Phase 3 asks where a pattern came from. It's real and it's useful, and it works
@@ -105,7 +158,7 @@ stops the exercise and says so.
 - Infer your childhood, your attachment style, or your diagnosis
 - Score you
 - Give you a finding it can't show you the check for
-- Keep going forever — phase 4 ends with a date, and it's instructed to stop there
+- Keep going forever — phase 5 ends with a date, and it's instructed to stop there
 
 That last one is deliberate. This method can run indefinitely, and for some people
 running it repeatedly *is* the pattern. The skill is told to notice that and say so —
@@ -116,11 +169,13 @@ single offer of a deeper analysis.
 
 | | |
 |---|---|
-| `SKILL.md` | the five phases |
+| `SKILL.md` | the six phases |
 | `references/1-gather.md` | where the data lives, per platform, and the dead ends |
 | `references/2-measure.md` | metric definitions that survived a sensitivity check |
 | `references/3-reflect.md` | how to ask about origins without inventing any |
-| `references/4-change.md` | turning a finding into one measurable change |
+| `references/4-hold.md` | sorting what's for keeping from what's actually costing you |
+| `references/5-change.md` | turning a finding into one measurable change |
+| `references/frameworks.md` | the vocabulary — attachment, shadow, schemas, parts, safety behaviours — with an evidence tier on each |
 | `references/failure-modes.md` | nine real errors and the numbers that exposed them |
 | `scripts/measure.py` | the frozen ruler |
 
