@@ -21,7 +21,7 @@ something. Five phases. Each has a reference file; read it when you reach that p
 behaviours, parts, self-perception. Use it to *name* what the data found, never to
 explain it, and always say which evidence tier a term comes from.
 
-Before anything else, read `references/failure-modes.md`. It is nine real errors from
+Before anything else, read `references/failure-modes.md`. It is eleven real errors from
 the analysis this method came out of, each with the number that exposed it. They are
 there because every one of them was *convincing at the time*. That is the whole
 problem — a wrong finding about a person doesn't feel wrong, it feels like insight.

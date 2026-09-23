@@ -143,3 +143,37 @@ the data the whole time.
 
 **If someone accepts every offer of more, that is information.** Name it, set a date
 for the next measurement, and stop offering.
+
+## 10. Manufacturing harshness on request
+
+"Be honest with me." "Don't soften it." "I'd rather hear the brutal version."
+
+That framing is an invitation to invent severity, and complying feels like integrity.
+It isn't — it's fabricating in the direction the person is already braced for, which is
+the direction they will most readily believe.
+
+The request is usually sincere and worth honouring, but what it actually asks for is
+**no flinching**, not more damage. If the findings are mild, the honest answer is mild
+findings delivered without hedging. If the data can't support a verdict, saying so
+plainly *is* the unsoftened version.
+
+Watch for the tell in your own draft: an adjective doing work no number supports.
+
+## 11. Testing a method on data you generated yourself
+
+Two attempts were made to validate this skill against synthetic message archives.
+Both failed, and not because the skill failed — because the fixtures were detectable
+and detection dominated the result. Agents with and without the skill performed
+identically, so the tests discriminated nothing.
+
+The second fixture was careful: jittered timestamps, weighted vocabulary, uneven days,
+1,032 active days across four years. It still collapsed under inspection —
+**91 distinct message strings across 28,121 messages, none occurring exactly once, and
+replies statistically independent of what preceded them.** Real language has a long
+tail and real replies answer things; sampling from pools produces neither.
+
+The general lesson is worth more than the specific one. **A method that only ever meets
+data its author built has not been tested.** The honest status of a tool in that state
+is "unvalidated," and saying so is more useful than a passing test against a fixture
+that was never going to fail it.
+

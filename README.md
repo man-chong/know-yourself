@@ -208,15 +208,32 @@ single offer of a deeper analysis.
 | `references/4-hold.md` | sorting what's for keeping from what's actually costing you |
 | `references/5-change.md` | turning a finding into one measurable change |
 | `references/frameworks.md` | the vocabulary — attachment, shadow, schemas, parts, safety behaviours — with an evidence tier on each |
-| `references/failure-modes.md` | nine real errors and the numbers that exposed them |
+| `references/failure-modes.md` | eleven real errors and the numbers that exposed them |
 | `scripts/measure.py` | the frozen ruler |
 
 ## Honest status
 
-Built September 2026, out of one long analysis of one person's archives. The method is
-tested in the sense that it survived contact with real data and produced findings that
-had to be withdrawn. It is **not** validated in the sense of having been run on many
-people and compared against anything.
+Built September 2026, out of one long analysis of one person's archives. The method
+survived contact with real data and produced several findings that had to be withdrawn,
+which is the only kind of testing it has actually had.
+
+**It is not validated, and two attempts to validate it both returned nothing.** Agents
+with and without the skill were run against synthetic archives and performed
+identically — because both fixtures were detectable as generated, and detection
+dominated the test. The second was careful and still collapsed: 91 distinct message
+strings across 28,121 messages, none occurring exactly once, replies statistically
+independent of what preceded them. Real language has a long tail; sampling from pools
+doesn't.
+
+The honest position: on a frontier model the method sections may be doing very little,
+because a good model already reads before counting and already refuses to sum a person
+up. What no model has is the **specific knowledge** — that Claude Code writes subagent
+transcripts into the same tree and they aren't sessions, that Codex re-emits its whole
+thread on every resume, that the WhatsApp desktop client syncs about a year while its
+session metadata survives a decade. And the eleven failure modes, which are a record of
+things that actually went wrong.
+
+Treat that part as the reliable part. Those don't get discovered twice.
 
 Treat the failure modes as the reliable part. They're a record of things that actually
 went wrong, and those don't get discovered twice.
