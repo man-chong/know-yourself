@@ -11,6 +11,10 @@ This phase is short on purpose. One behaviour, made countable, with a date.
 Not three. Not a theme. **One behaviour, stated as something a person does or doesn't
 do**, narrow enough that you could argue about whether it happened today.
 
+Choose it from the **widest gap between a direction they named in phase 0 and what the
+data shows they do.** That's what makes it theirs: the change moves them toward somewhere
+they said they wanted to go, instead of toward an improvement you picked for them.
+
 | too vague | usable |
 |---|---|
 | be more assertive | say "no" out loud when I decide against something |
@@ -29,6 +33,7 @@ people reliably believe they've changed more than they have, and occasionally mu
 less.
 
 ```
+direction   the people I love know where they stand with me
 behaviour   saying no out loud instead of going quiet
 metric      messages starting with no / don't / not now, as a share of replies
             to a suggestion

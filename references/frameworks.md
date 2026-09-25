@@ -158,7 +158,7 @@ as far less shaming.
 belong). Most persistent unhappiness maps to one of them being starved.
 
 **ACT** (Hayes) treats **values** as directions rather than goals — you never arrive,
-you only face that way. Plus *cognitive defusion*: the difference between "I'm a
+you only face that way. Phase 0 is built on exactly this distinction. Plus *cognitive defusion*: the difference between "I'm a
 failure" and "I'm having the thought that I'm a failure."
 
 Maslow's hierarchy is the famous one and the weakest; the pyramid was drawn by someone

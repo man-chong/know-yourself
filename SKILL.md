@@ -1,20 +1,22 @@
 ---
 name: know-yourself
-description: Guide someone through finding their real behavioural patterns in their own data — chat exports, AI-assistant transcripts, commit history, app downloads — then help them understand where a pattern came from and change one thing, with a date to measure whether it moved. Use this whenever someone wants to understand themselves better, asks what their messages or transcripts say about them, wants to know why they keep doing something, asks about their patterns or blind spots or "why am I like this", wants to become a different version of themselves, or hands over a WhatsApp export, ChatGPT/Claude archive, or platform data download and asks what's in it. Also use it when someone is checking whether a pattern another person accused them of is actually true. Most of this skill is safeguards, because the naive version — counting things and narrating a personality — reliably produces a confident, wrong, and hurtful portrait.
+description: Guide someone through finding their real behavioural patterns in their own data — chat exports, AI-assistant transcripts, commit history, app downloads — then help them understand where a pattern came from and take one measured step toward who they want to be, with a date to check whether it moved. Use this whenever someone wants to understand themselves better, asks what their messages or transcripts say about them, wants to know why they keep doing something, asks about their patterns or blind spots or "why am I like this", wants to become a different version of themselves, or hands over a WhatsApp export, ChatGPT/Claude archive, or platform data download and asks what's in it. Also use it when someone is checking whether a pattern another person accused them of is actually true. Most of this skill is safeguards, because the naive version — counting things and narrating a personality — reliably produces a confident, wrong, and hurtful portrait.
 ---
 
 # Know yourself
 
-Someone wants to understand their own patterns using their own data, and then change
-something. Five phases. Each has a reference file; read it when you reach that phase.
+Someone wants to understand their own patterns using their own data, and then move one
+step toward who they want to be. Seven phases, numbered from 0 because the first one
+happens before any data is opened. Each has a reference file; read it when you get there.
 
 ```
-1 GATHER   what data exists                 references/1-gather.md
-2 MEASURE  what is actually in it           references/2-measure.md
-3 REFLECT  where it came from               references/3-reflect.md
-4 HOLD     what is for keeping, not fixing  references/4-hold.md
-5 CHANGE   one thing, made measurable       references/5-change.md
-6 RETURN   did it move                      scripts/measure.py + a date
+0 DIRECTION  where they want to head — asked first  references/0-direction.md
+1 GATHER     what data exists                       references/1-gather.md
+2 MEASURE    what is actually in it                 references/2-measure.md
+3 REFLECT    where it came from                     references/3-reflect.md
+4 HOLD       what is for keeping, not fixing        references/4-hold.md
+5 CHANGE     one thing, made measurable             references/5-change.md
+6 RETURN     did it move                            scripts/measure.py + a date
 ```
 
 `references/frameworks.md` is the vocabulary — attachment, shadow, schemas, safety
@@ -55,6 +57,24 @@ is an honest output. A paragraph beginning "what emerges is someone who…" is n
 however generous it is. If asked directly to sum someone up, say what's true — you can
 report what you measured, and anything you assembled would be you deciding which parts
 count.
+
+## Phase 0 — Direction
+
+**Before opening any data, ask where the person wants to head.** Two or three open
+questions, answered in their own words, written down verbatim with the date.
+
+It comes first because once someone has seen what they do, what they say they want bends
+to fit it. And it matters because phase 4 has to call some findings *costing* — and
+costing only means something against what the person wants. Without a stated direction,
+you decide what counts as a cost.
+
+Ask for a **direction, not a destination**: something they face, never somewhere they
+arrive. "Be more confident" is a destination, and it becomes a yardstick to fail against
+daily. "The people close to me know where they stand" is a direction you can see in a
+week of messages. If they don't know or don't want to say, that's a complete answer —
+carry on.
+
+→ `references/0-direction.md`
 
 ## Phase 1 — Gather
 
@@ -133,6 +153,13 @@ person. Your job here is to ask well and to never, ever fill in the blank.
 An AI that reads someone's messages and narrates their childhood is doing the thing
 this entire skill exists to prevent, on the subject where being wrong costs most.
 
+One thing the data *can* contribute: it can often date a pattern. It can't show why an
+apology habit started, but it can show the year it first appears — see *When it started*
+in `references/2-measure.md`. *"This shows up in your messages from 2019 on — what was
+happening then?"* gives memory something real to hold. The data supplies the when; the
+person supplies the why. If the pattern is there from the archive's first day, all you
+know is that it's at least that old.
+
 → `references/3-reflect.md` — how to run this without inventing anything. Read it
 before asking a single question; the difference between a good and a harmful version
 of this phase is almost entirely in the phrasing.
@@ -148,8 +175,9 @@ themselves leaves with a to-do list about their character.
 
 Three buckets: **load-bearing** (it's doing a job — usually the same faculty as a
 strength, seen from the cost side), **just true** (works at night, types in fragments
-— facts, not problems), and **costing more than it gives** (the genuine minority).
-Only the third goes to phase 5. If everything landed there, sort again.
+— facts, not problems), and **costing more than it gives** — which means cutting against
+a direction *they* named in phase 0, not one you'd pick for them. That's the genuine
+minority. Only the third goes to phase 5. If everything landed there, sort again.
 
 Report capabilities with the same numbers and seriousness as costs. A person who
 leaves knowing only what's wrong with them has an inaccurate picture.
@@ -161,7 +189,8 @@ leaves knowing only what's wrong with them has an inaccurate picture.
 Insight on its own changes nothing, and this method is unusually good at producing the
 *feeling* of progress.
 
-Pick **one** behaviour. Make it countable. Write down what the number is now and what
+Pick **one** behaviour — from the widest gap between a direction they named in phase 0
+and what the data shows they do. Make it countable. Write down what the number is now and what
 would count as different. Set a date.
 
 The failure mode is picking five things and measuring none.
@@ -192,6 +221,12 @@ traces — these show up. Report them the way you'd report a commit timestamp. N
 concern-voice, no softening that implies there is something to soften. If someone
 hands something over saying "this will disappoint you," the useful response is the
 analysis they asked for.
+
+**If someone says they want to hurt themselves or end their life, stop the exercise.**
+Say you're glad they told you. Point them to a crisis line in their country —
+findahelpline.com lists free ones for 175+ countries — or to emergency services if
+they're in danger now. Don't return to the analysis unless they ask. This outranks
+everything else in this file, including *report findings flatly*.
 
 **Don't manage the person.** No schedules, no "next step by 10am," no asking them to
 report back in two lines. If they're about to do something unwise, say it in a

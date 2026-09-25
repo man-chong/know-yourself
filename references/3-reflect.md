@@ -54,6 +54,13 @@ before you build anything on it.
 The useful word is *remember*, not *start*. You're asking for an episode, not a theory.
 Episodes are retrievable and roughly honest; theories are constructed on the spot.
 
+If phase 2 dated the pattern, lead with the date instead: **"This first shows up in your
+messages around 2019. What was going on then?"** A date gives memory something real to
+hold, and it's the one piece of history the data can honestly supply. Two cautions. If
+the pattern is present from the archive's first day, say *"at least since [date], which
+is where your messages begin"* — never let the archive's start pose as the habit's start.
+And a date is a prompt, not an explanation: don't guess what happened that year.
+
 **3. What was going on around then?**
 Open, not leading. Don't name candidates. If they say "I don't know," that's a real
 answer — move on rather than offering options for them to pick from, because they will
@@ -71,7 +78,8 @@ costing them at thirty. That gap is the actual finding of this phase, and they h
 be the one to say it.
 
 **6. What would you be doing instead, if you didn't do this?**
-Points straight at phase 4. Keep it concrete: an action, not a feeling.
+Points straight at phases 4 and 5 — and if the person named no direction in phase 0,
+this is often where one appears. Keep it concrete: an action, not a feeling.
 
 ## The three layers
 
@@ -141,7 +149,8 @@ what happens next. You are not, and you don't have the continuity to.
 clearly haven't told anyone — the useful response is to stop the exercise, stay with
 what they said without analysing it, and say plainly that this is worth taking to a
 person rather than a tool. Don't push through the remaining questions. Don't treat it
-as data.
+as data. If it's self-harm or suicide, give them a crisis line for their country —
+findahelpline.com lists free ones — as *Handling what you find* in `SKILL.md` says.
 
 **Notice when reflection becomes rumination.** Same question circled three or four
 times, each pass more detailed and no more settled, is not progress. The person may

@@ -20,7 +20,7 @@ House rules, learned the hard way:
     this in six months needs to know which filters are load-bearing.
 """
 import argparse, json, os, re, glob, statistics as st, datetime as dt
-from collections import Counter
+from collections import Counter, defaultdict
 
 TZ = dt.timezone(dt.timedelta(hours=8))    # set to the person's actual timezone
 
@@ -136,11 +136,29 @@ def walkaways(rows):
         prev[tid] = cur
     return w
 
+def by_year(rows, label):
+    """When a habit first shows up — its rate per year, with volume so thin years show.
+    The archive's first year is not the habit's first year: if it's there from the start,
+    all you know is that it's at least that old."""
+    per = defaultdict(list)
+    for ts, _, t in rows: per[ts[:4]].append(t)
+    if not per: return
+    years = sorted(per)
+    print(f"\n  {label} by year — archive begins {min(r[0] for r in rows)[:10]}")
+    print(f"  {'':<26}" + ''.join(f"{y:>8}" for y in years))
+    print(f"  {'messages':<26}" + ''.join(f"{len(per[y]):>8}" for y in years))
+    for hlabel, pat in HABITS:
+        print(f"  {hlabel:<26}" + ''.join(
+            f"{100*sum(1 for t in per[y] if re.search(pat, t, re.I))/max(1, len(per[y])):>7.1f}%"
+            for y in years))
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--cutoff', default=None, help='split one corpus before/after this date')
     ap.add_argument('--window', nargs=2, metavar=('FROM', 'TO'),
                     help='restrict every corpus to the same dates — the like-for-like run')
+    ap.add_argument('--by-year', action='store_true',
+                    help='each habit per year — when it first shows up (phase 3 uses this)')
     a = ap.parse_args()
 
     if not CORPORA:
@@ -180,6 +198,10 @@ def main():
         peak = max(w.values())
         for h in range(24):
             if w[h]: print(f"    {h:02d}:00 {'#' * max(1, 30*w[h]//peak)} {w[h]}")
+
+    if a.by_year:
+        for name, (msgs, _) in data.items():
+            by_year(msgs, name)
 
 if __name__ == '__main__':
     main()

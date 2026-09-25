@@ -94,8 +94,11 @@ recognition and nothing else.
 
 **Costing more than it gives.**
 The genuine minority. Something whose price is now clearly higher than its return —
-usually because it was load-bearing once and the situation changed. Only these go to
-phase 5.
+usually because it was load-bearing once and the situation changed. **"Costing" is
+measured against the direction the person named in phase 0, not against yours.** A habit
+that cuts against nothing they want isn't a cost, however strange it looks from outside.
+If they named no direction, ask them what it costs them — don't decide it. Only these go
+to phase 5.
 
 If everything you found lands in the third bucket, you've sorted badly. Go again.
 
@@ -112,10 +115,11 @@ The most useful question in the phase. Ask where else in their life the same
 underlying capacity operates. If it shows up somewhere they value, it's load-bearing
 almost by definition, and the frame changes from removal to aim.
 
-**3. Is the price still worth it, now?**
+**3. Is the price still worth it, now — for where they want to head?**
 Not *was it ever justified* — it almost always was. Whether it still is. A thing that
 protected a fifteen-year-old can be charging a thirty-year-old for a danger that
-stopped existing years ago.
+stopped existing years ago. The direction from phase 0 is what "worth it" is measured
+against.
 
 ## What "let it be" actually means
 

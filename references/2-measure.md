@@ -121,6 +121,29 @@ For anything causal-sounding, run the lagged version in both directions. See
 failure-modes.md §7: a strong contemporaneous correlation had zero lagged effect in
 either direction, and the causal reading would have been both wrong and cruel.
 
+## When it started
+
+The data can't say why a pattern began. It can often say **when**, and that date is the
+most useful thing phase 2 can hand to phase 3.
+
+Take any metric that survived, compute it per year (or half-year), and look for the first
+period where it sits clearly above the level before it. `scripts/measure.py --by-year`
+prints the table, with message volume per year so thin years are visible.
+
+Three cautions, each from something that nearly went wrong:
+
+- **The archive's start is not the pattern's start.** If a habit is there in the first
+  month of data, all you know is that it's at least that old. One archive that appeared
+  to hold thirteen years of history held thirteen months of real messages; its "first
+  year" would have dated nothing.
+- **A new thread can look like an onset.** A rate that jumps in 2021 because a new,
+  high-volume friendship began in 2021 is a change in *who*, not in *you*. Check thread
+  by thread before reporting a date.
+- **Don't let the bin choose the answer.** Try years and half-years. If the onset moves
+  by more than one bin when you change the bin size, report a range, not a date.
+
+Report it as *"first visible around…"*, never *"started in…"*.
+
 ## Cross-corpus comparison
 
 The strongest design available here, because the person is the constant and only the

@@ -1,7 +1,7 @@
 # know-yourself
 
-A Claude skill for finding your real patterns in your own data — then changing one
-thing and measuring whether it moved.
+A Claude skill for finding your real patterns in your own data — then taking one
+measured step toward who you want to be, and checking later whether it moved.
 
 You already have the material. Years of messages, AI chats, commits, app history.
 Nobody reads their own.
@@ -11,6 +11,7 @@ Nobody reads their own.
 ## What it does
 
 ```
+0  DIRECTION say where you want to head — before seeing any of your data
 1  GATHER    find what data you actually have
 2  MEASURE   find what is actually in it
 3  REFLECT   ask where a pattern came from — you answer, not the AI
@@ -19,9 +20,11 @@ Nobody reads their own.
 6  RETURN    run the same script on that date and see if it moved
 ```
 
-Two phases do the work nothing else does. **Phase 4** refuses to treat every finding as
-a defect. **Phase 6** comes back on a date and tells you whether anything moved — most
-self-knowledge work ends at insight and never finds out.
+Three phases do the work nothing else does. **Phase 0** asks where you want to head
+before you see what you do, so what you want can't quietly bend to fit what you find.
+**Phase 4** refuses to treat every finding as a defect. **Phase 6** comes back on a date
+and tells you whether anything moved — most self-knowledge work ends at insight and
+never finds out.
 
 ## Install
 
@@ -165,6 +168,29 @@ words, with what it does for you said out loud in the same breath as what it cos
 and — the part that changes most — no longer counted as evidence against yourself
 every time you catch it.
 
+## Toward the version you want to be
+
+The skill asks where you want to head before it looks at anything — and then
+deliberately doesn't paint you a finished picture of that person.
+
+A portrait of your ideal self is another assembled self, just pointed at the future: a
+curated set of wishes you'd then measure the real you against, and fail, daily. So
+phase 0 asks for a **direction, not a destination** — *"the people I love know where they
+stand with me,"* not *"be more confident."* A direction is something you face, never
+somewhere you arrive. It's the distinction ACT (acceptance and commitment therapy) is
+built on.
+
+That direction then does two jobs. It decides what counts as *costing* you in phase 4 —
+your heading, not the AI's opinion of you. And it picks the one change in phase 5: the
+widest gap between where you said you want to go and what your data shows you do.
+
+**The version of you that you want to be isn't a picture to match. It's the direction you
+keep choosing, one measured step at a time.**
+
+The data helps with the other end too — where you came from. It can't say why a habit
+started, but it can often say *when*: *"this first shows up in your messages around 2019
+— what was going on then?"* The data supplies the when. You supply the why.
+
 ## On the "why am I like this" part
 
 Phase 3 asks where a pattern came from. It's real and it's useful, and it works
@@ -181,11 +207,13 @@ like this, the correct answer is *"I can see what you do and when. I can't see w
 it started. What do you think?"*
 
 It's also not therapy and doesn't imitate one. If something heavy surfaces, the skill
-stops the exercise and says so.
+stops the exercise and says so — and if you say you want to hurt yourself, it stops
+entirely and points you to a free crisis line in your country.
 
 ## What it won't do
 
 - Sum you up, or tell you who you are
+- Paint an ideal version of you to live up to — it asks for a direction instead
 - Tell you your personality type
 - Infer your childhood, your attachment style, or your diagnosis
 - Score you
@@ -201,7 +229,8 @@ single offer of a deeper analysis.
 
 | | |
 |---|---|
-| `SKILL.md` | the six phases |
+| `SKILL.md` | the seven phases, 0 to 6 |
+| `references/0-direction.md` | asking where you want to head, before seeing any data |
 | `references/1-gather.md` | where the data lives, per platform, and the dead ends |
 | `references/2-measure.md` | metric definitions that survived a sensitivity check |
 | `references/3-reflect.md` | how to ask about origins without inventing any |
@@ -242,9 +271,14 @@ sentence that was kind, well-written, and still a portrait. **n = 1 per cell**, 
 skill's own rules that is suggestive, not proof. The Opus runs taught the skill more than
 they tested it; two of the thirteen failure modes came out of them.
 
+**Phase 0 (direction) and pattern-dating were added after that test, and haven't been
+tested at all yet.**
+
 The honest position: on a frontier model the method sections may be doing very little,
 because a good model already reads before counting and already refuses to sum a person
-up. On a smaller model, the one result so far says they matter. What no model has is the **specific knowledge** — that Claude Code writes subagent
+up. On a smaller model, the one result so far says they matter.
+
+What no model has is the **specific knowledge** — that Claude Code writes subagent
 transcripts into the same tree and they aren't sessions, that Codex re-emits its whole
 thread on every resume, that the WhatsApp desktop client syncs about a year while its
 session metadata survives a decade. And the thirteen failure modes, which are a record of
