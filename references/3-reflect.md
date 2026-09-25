@@ -83,8 +83,17 @@ what it does       attends to how someone else is feeling
 what it protects   checks whether I've made a bad impression
 ```
 
-**Never hand someone the third line.** It's the satisfying one and it's exactly the one
-you cannot see from data. Offer the first two — both observable — and ask for the third.
+**Never hand someone the third line as a finding.** It's the satisfying one and it's
+exactly the one you cannot see from data. Offer the first two — both observable — and
+ask for the third.
+
+One exception, and it's narrow. If the data itself can test a guess about the third line,
+you may offer it — **marked as a guess, with the test that would kill it**. A real
+example that earned it: *"Some of your 'u good?' may really be 'are we good?' Compare
+the silences you checked in on against the ones you let pass. No difference, drop my
+theory."* Without the test, the same sentence is just a satisfying story. And this never
+extends to origins — childhood, parents, trauma, attachment style. The data can't test
+those at all.
 
 The question that reaches it without leading: **"what would happen if you didn't?"**
 The answer names the feared outcome, and the feared outcome *is* the third layer.

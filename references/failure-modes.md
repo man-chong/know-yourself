@@ -172,8 +172,52 @@ The second fixture was careful: jittered timestamps, weighted vocabulary, uneven
 replies statistically independent of what preceded them.** Real language has a long
 tail and real replies answer things; sampling from pools produces neither.
 
+A third attempt fixed the fixture problem by handing agents already-measured findings,
+so there was nothing to catch as synthetic — and hit a different leak. The author's own
+global instructions load into every test agent, so a fictional user's findings got read
+as the author's: one baseline quoted the author's real work history back at a stranger.
+Any test that runs on the author's machine inherits the author's context. Say so when
+reporting it, and don't credit the skill for insight the context file supplied.
+
 The general lesson is worth more than the specific one. **A method that only ever meets
 data its author built has not been tested.** The honest status of a tool in that state
 is "unvalidated," and saying so is more useful than a passing test against a fixture
 that was never going to fail it.
+
+## 12. A zero with nothing to read
+
+A finding said the person had **never once disagreed with a friend in writing** — zero
+hits across 29,500 messages, thresholds varied, samples read. It looked solid.
+
+It wasn't measured at all. The search phrases were 10–16 characters long ("I disagree",
+"that's not right"); the person's median message to friends was **6 characters**. Half
+the messages physically couldn't contain a match, and bursts split a phrase across two
+messages where it can't match either. The usual check — *read samples of what was
+flagged* — was useless, because **there were no hits to sample.**
+
+An absence is the one finding reading can't verify. Before believing a zero, search in
+the words the person actually uses — the short forms, the slang, the other languages —
+and read a handful of conversations end to end looking for the thing by hand. Until
+then, report it as *unmeasured*, not as *zero*. "I never disagree with my friends" is a
+self-concept, and it shouldn't be built on a search that couldn't have found anything.
+
+## 13. The denominator doing the talking
+
+Three versions of one error, all from the same findings sheet:
+
+**Units that don't match.** 4.1% of messages to friends contained an apology; 7.8% of
+messages to ChatGPT did. "I apologise even more to a machine" follows — except one
+thought on WhatsApp is a burst of five fragments, and on ChatGPT it's one long message.
+Per message, the two rooms aren't the same unit. Counted per turn, the order could flip.
+
+**A trigger with no base rate.** "Check-ins usually follow a friend going quiet for 6+
+hours" — while 38% of the person's own messages went out between 23:00 and 04:00. Any
+friend who sleeps goes quiet for six hours most nights. Until you know how often
+ordinary messages *also* follow a gap like that, there's no trigger, just a clock.
+
+**One thread posing as a pool.** One friendship held 22,000 of the 29,500 messages. A
+pooled rate across "six friends" was mostly one relationship.
+
+In each case the numerator was right and the conclusion came from the denominator.
+Ask of every rate: *per what?* And is the "what" the same on both sides?
 

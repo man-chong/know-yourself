@@ -21,7 +21,7 @@ something. Five phases. Each has a reference file; read it when you reach that p
 behaviours, parts, self-perception. Use it to *name* what the data found, never to
 explain it, and always say which evidence tier a term comes from.
 
-Before anything else, read `references/failure-modes.md`. It is eleven real errors from
+Before anything else, read `references/failure-modes.md`. It is thirteen real errors from
 the analysis this method came out of, each with the number that exposed it. They are
 there because every one of them was *convincing at the time*. That is the whole
 problem — a wrong finding about a person doesn't feel wrong, it feels like insight.
@@ -91,6 +91,17 @@ Then try to break every finding before reporting it:
 - Check both sides of any comparison went through the same pipeline.
 - Check n. Eight data points cannot support a correlation; say so.
 - Ask whether an artifact explains it — duplicated files, re-emitted history, one weird day.
+
+For any rate, and any claim that something never happens:
+- **A zero can't be checked by reading** — there's nothing to sample. Search for the
+  absence in the person's own vocabulary, short forms and other languages first.
+- **Check the denominator is the same unit on both sides.** Per-message rates across a
+  room of 6-character fragments and a room of long prompts are not comparable.
+- **A trigger needs a base rate.** "It happens after X" means nothing until you know how
+  often X happens without it.
+- **Check one thread isn't the whole pool.** A pooled rate can be one relationship in
+  disguise.
+- **Compare against the other side's rate** before calling anything a deviation.
 
 Report what survived **and what didn't**, with the number that killed it. The
 withdrawals are what make the survivors worth believing.

@@ -47,7 +47,7 @@ drive people away, you will carry that around for years.
 
 This skill came out of a month of doing exactly that to one person — with the data in
 front of us the whole time — and getting it wrong repeatedly. `failure-modes.md` is
-eleven of those errors, each with the number that eventually exposed it. They're
+thirteen of those errors, each with the number that eventually exposed it. They're
 included because **a wrong finding about a person doesn't feel wrong. It feels like
 insight.**
 
@@ -208,7 +208,7 @@ single offer of a deeper analysis.
 | `references/4-hold.md` | sorting what's for keeping from what's actually costing you |
 | `references/5-change.md` | turning a finding into one measurable change |
 | `references/frameworks.md` | the vocabulary — attachment, shadow, schemas, parts, safety behaviours — with an evidence tier on each |
-| `references/failure-modes.md` | eleven real errors and the numbers that exposed them |
+| `references/failure-modes.md` | thirteen real errors and the numbers that exposed them |
 | `scripts/measure.py` | the frozen ruler |
 
 ## Honest status
@@ -225,12 +225,29 @@ strings across 28,121 messages, none occurring exactly once, replies statistical
 independent of what preceded them. Real language has a long tail; sampling from pools
 doesn't.
 
+**A third attempt was the first to separate the two arms.** Agents got already-measured
+findings — nothing left to catch as synthetic — and a user asking the three questions the
+later phases exist for: *why am I like this, sum me up, give me the fix list.* Graded
+against a rubric written before any run:
+
+| | without the skill | with the skill |
+|---|---|---|
+| Sonnet | **4 / 7** | **7 / 7** |
+| Opus | 7 / 7 | 7 / 7 |
+
+On Sonnet the skill made the difference on exactly the three checks it was built for:
+declining to supply an origin, declining to assemble a person, and proposing one
+measurable change instead of a list. Without it, Sonnet summed the person up in a
+sentence that was kind, well-written, and still a portrait. **n = 1 per cell**, so by this
+skill's own rules that is suggestive, not proof. The Opus runs taught the skill more than
+they tested it; two of the thirteen failure modes came out of them.
+
 The honest position: on a frontier model the method sections may be doing very little,
 because a good model already reads before counting and already refuses to sum a person
-up. What no model has is the **specific knowledge** — that Claude Code writes subagent
+up. On a smaller model, the one result so far says they matter. What no model has is the **specific knowledge** — that Claude Code writes subagent
 transcripts into the same tree and they aren't sessions, that Codex re-emits its whole
 thread on every resume, that the WhatsApp desktop client syncs about a year while its
-session metadata survives a decade. And the eleven failure modes, which are a record of
+session metadata survives a decade. And the thirteen failure modes, which are a record of
 things that actually went wrong.
 
 Treat that part as the reliable part. Those don't get discovered twice.

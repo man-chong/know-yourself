@@ -73,7 +73,8 @@ what it does     smooths a moment
 what it protects keeps me from taking up space I'm not sure I'm allowed
 ```
 
-**Never hand someone the third line.** That's phase 3's rule and it matters most here,
+**Never hand someone the third line as a finding.** That's phase 3's rule (including its
+one narrow exception — a guess the data can test, with the test attached), and it matters most here,
 because the third line is the satisfying one and it is exactly the one you cannot see
 from data. Offer the first two, which are observable, and ask what the third is.
 
